@@ -1,0 +1,19 @@
+.Work-container{
+    /* margin-top: 20vh; */
+    margin-bottom: 60vh;
+    padding: 0px 150px;
+}
+#accordionFlushExample{
+    margin: 90px 0px;
+}
+.accordion-button{
+    font-family: verdana;
+    font-weight: 300;
+    background-color: rgb(189, 189, 189);
+    color: rgb(8, 8, 8);
+    
+}
+.accordion-body{
+    background-color: rgb(40,40,40);
+    color: white;
+}
