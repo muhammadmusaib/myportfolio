@@ -1,30 +1,64 @@
-.firstSection{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 220px;
-    margin-bottom: 95px;
+.firstSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20%;
+  margin-bottom: 95px;
+  padding: 20px 10%;
+}
+
+.firstSection div {
+  width: 100%;
+  max-width: 400px; /* Ensure it doesn't get too wide */
+}
+
+.leftSection {
+  position: relative;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add some space between sections on smaller screens */
+}
+
+.rightSection img {
+  border: none;
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .firstSection {
+    flex-wrap: nowrap;
   }
-  .firstSection div{
-    width: 30%;
+
+  .firstSection div {
+    width: 45%; /* Take more space on larger screens */
   }
-  .leftSection{
-    position: relative;
+
+  .rightSection img {
     height: 50vh;
-    /* width: 50rem; */
-    padding: 0.5rem;
-    font-size: 1rem;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    
+    width: auto;
   }
-  .rightSection img{
-   position: absolute;
-   border: none;
-   top: 12rem;
-   object-fit: cover;
-   margin-right: 90px;
-   height: 50vh;
-   background-repeat: no-repeat;
+}
+
+@media (min-width: 1024px) {
+  .firstSection {
+    justify-content: space-around;
   }
+
+  .leftSection {
+    font-size: 1.2rem;
+  }
+}
