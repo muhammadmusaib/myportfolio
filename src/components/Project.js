@@ -7,7 +7,7 @@ const Project = () => {
     <div className="container" id="project">
       <h3 style={{ display: "flex", justifyContent: "center" }}>Project</h3>
       <h5>
-        <span style={{ display: "flex", justifyContent: "center" }}>
+        <span style={{ display: "flex", justifyContent: "center" }} id="projectName">
           Automatic Plant Watering System
         </span>
       </h5>

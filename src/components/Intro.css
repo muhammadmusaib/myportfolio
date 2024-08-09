@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-bottom: 95px;
   padding: 20px 10%;
 }
@@ -60,5 +60,8 @@
 
   .leftSection {
     font-size: 1.2rem;
+  }
+  .leftSection , span {
+    text-align: left;
   }
 }

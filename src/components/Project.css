@@ -27,10 +27,12 @@
 @media (max-width: 768px) {
   .Projectfirstsection {
     flex-direction: column-reverse;
+    margin-top: 32px;
+    margin-bottom: 28px;
   }
   .ProjectleftSection {
     margin-top: 25px;
-    margin-left: 0;
+    margin-left: 11px;
     padding: 0 10%;
     p {
       display: block;
@@ -43,7 +45,14 @@
     }
   }
   .ProjectrightSection {
-    margin-left: 0;
+    margin-left: 16px;
     padding: 0 10%;
+    height: 55vh;
+    width: 64vh;
   }
+  #projectName{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
 }

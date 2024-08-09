@@ -1,6 +1,6 @@
 .work-container {
-  /* margin-top: 20vh; */
-  /* margin-bottom: 60vh; */
+  margin-top: 20vh;
+  margin-bottom: 60vh;
   padding: 0px 10%;
 }
 #accordionExample {
@@ -15,4 +15,10 @@
 .accordion-body {
   background-color: rgb(40, 40, 40);
   color: white;
+}
+@media (max-width: 768px) {
+  .work-container {
+    margin-bottom: 36vh;
+    padding: 0px 10%;
+  } 
 }

@@ -9,3 +9,11 @@
     font-size: small;
     padding: 1rem;
   }
+  @media (max-width: 768px) {
+    .footer{
+      height: 4rem;
+      display: flex;
+      text-align: center;
+    }
+
+  }

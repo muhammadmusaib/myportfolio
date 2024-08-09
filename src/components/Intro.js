@@ -7,7 +7,7 @@ const Intro = () => {
     <div>
       <section className="firstSection" id="intro">
         <div className="leftSection">
-          <h4 className="my-4 italic">Intro</h4>
+          <h4 className="my-2 italic">Intro</h4>
           Hello, I'm <br />
           <span style={{ color: "rgb(214, 214, 69)" }}>
             <big>Mohd. Musaib</big>

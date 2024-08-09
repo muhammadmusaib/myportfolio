@@ -64,6 +64,7 @@
 @media (max-width: 768px) {
   .navbar-collapse {
     display: none;
+    
   }
 
   .navbar-collapse.show {
@@ -77,5 +78,8 @@
 
   .nav-link {
     margin: 10px 0;
+  }
+  .container-fluid{
+    height: 23vh;
   }
 }
