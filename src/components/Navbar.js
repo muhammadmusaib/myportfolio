@@ -11,23 +11,34 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar fixed-top navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <img src={logo} alt="logo" className="logo" />
-        <div className="d-flex">
-          <button className="navbar-toggler" type="button" onClick={toggleMenu}>
-            <span className="navbar-toggler-icon">&#9776;</span>
-          </button>
-          <div
-            className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <a className="navbar-brand flex-grow-1" href="#">
+          <img src={logo} alt="logo" className="logo" />
+        </a>
+        <button
+          className="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onClick={toggleMenu}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div
+          className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+          id="navbarNavAltMarkup"
+        >
+          <div className="navbar-nav">
+            <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
                   onClick={() => setIsOpen(false)}
                   className="nav-link mx-4"
-                  activeClass="active"
+                  activeClassName="active"
                   to="intro"
                   spy={true}
                   smooth={true}
@@ -41,7 +52,7 @@ const Navbar = () => {
                 <Link
                   onClick={() => setIsOpen(false)}
                   className="nav-link mx-4"
-                  activeClass="active"
+                  activeClassName="active"
                   to="work"
                   spy={true}
                   smooth={true}
@@ -55,7 +66,7 @@ const Navbar = () => {
                 <Link
                   onClick={() => setIsOpen(false)}
                   className="nav-link mx-4"
-                  activeClass="active"
+                  activeClassName="active"
                   to="project"
                   spy={true}
                   smooth={true}
@@ -69,7 +80,7 @@ const Navbar = () => {
                 <Link
                   onClick={() => setIsOpen(false)}
                   className="nav-link mx-4"
-                  activeClass="active"
+                  activeClassName="active"
                   to="skills"
                   spy={true}
                   smooth={true}
@@ -83,7 +94,7 @@ const Navbar = () => {
                 <Link
                   onClick={() => setIsOpen(false)}
                   className="nav-link mx-4"
-                  activeClass="active"
+                  activeClassName="active"
                   to="contact"
                   spy={true}
                   smooth={true}
