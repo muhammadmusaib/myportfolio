@@ -1,3 +1,6 @@
+#skills {
+  padding-top: 10%;
+}
 .SkillsFirstSection {
   display: flex;
   flex-direction: row;
@@ -47,4 +50,10 @@
 }
 .card img {
   padding: inherit;
+}
+
+@media (max-width: 768px) {
+  #skills {
+    padding-top: 15%;
+  }
 }

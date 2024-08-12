@@ -1,7 +1,6 @@
 .work-container {
-  margin-top: 20vh;
-  margin-bottom: 60vh;
   padding: 0px 10%;
+  padding-top: 10%;
 }
 #accordionExample {
   margin: 90px 0px;
@@ -18,7 +17,8 @@
 }
 @media (max-width: 768px) {
   .work-container {
-    margin-bottom: 36vh;
+    /* margin-bottom: 36vh; */
     padding: 0px 10%;
-  } 
+    padding-top: 15%;
+  }
 }

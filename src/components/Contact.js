@@ -36,8 +36,18 @@ const Contact = () => {
           Please fill out the form below to discuss any work opportunities
         </span>
         <form className="Contactform" ref={form} onSubmit={sendEmail}>
-          <input type="text" className="name" placeholder="Your Name" name="to_name" />
-          <input type="email" className="email" placeholder="Your Email" name="your_email" />
+          <input
+            type="text"
+            className="name"
+            placeholder="Your Name"
+            name="to_name"
+          />
+          <input
+            type="email"
+            className="email"
+            placeholder="Your Email"
+            name="your_email"
+          />
           <textarea
             className="msg"
             name="message"
