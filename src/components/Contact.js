@@ -61,7 +61,7 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/themusaibkhan/">
               <img src={linkedin} alt="linkedin" className="link mx-4" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/muhammadmusaib_/">
               <img src={insta} alt="instagram" className="link mx-4" />
             </a>
           </div>
