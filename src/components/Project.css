@@ -1,3 +1,6 @@
+#project {
+  padding-top: 10%;
+}
 .ProjectleftSection {
   /* margin-top: 50px;
     margin-left: 10px; */
@@ -15,8 +18,8 @@
   width: 100%;
 }
 .ProjectrightSection img {
-  height: 90%;
-  width: 100%;
+  /* height: 90%; */
+  width: 70%;
 }
 .Projectfirstsection {
   display: flex;
@@ -25,6 +28,9 @@
 }
 
 @media (max-width: 768px) {
+  #project {
+    padding-top: 15%;
+  }
   .Projectfirstsection {
     flex-direction: column-reverse;
     margin-top: 32px;
@@ -47,12 +53,11 @@
   .ProjectrightSection {
     margin-left: 16px;
     padding: 0 10%;
-    height: 55vh;
-    width: 64vh;
+    /* height: 55vh; */
+    /* width: 64vh; */
   }
-  #projectName{
+  #projectName {
     text-align: center;
     margin-top: 20px;
   }
-  
 }
